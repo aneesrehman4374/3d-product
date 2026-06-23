@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My 3D Product</title>
+<title>My 3D Product</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
-<body style="text-align:center;font-family:Arial;">
-    <h1>Welcome to My 3D Product Website</h1>
-    <p>3D Model Coming Soon</p>
+<body>
+
+<h1 style="text-align:center;">My 3D Product</h1>
+
+<model-viewer
+src="keypad mobile.glb"
+ar
+auto-rotate
+camera-controls
+style="width:100%; height:600px;">
+</model-viewer>
+
 </body>
 </html>
